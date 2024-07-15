@@ -107,14 +107,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        keep_ctrl+tab_unchanged {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <52 22>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -134,7 +127,7 @@
 &kp TAB     &kp Q                &kp W            &kp F            &kp P              &kp B                                                                                    &kp J   &kp L               &kp U             &kp Y             &kp SEMI              &kp BSLH
 &kp ESC     &lt 2 A              &kp R            &lt 3 S          &hml LEFT_SHIFT T  &kp G                                                                                    &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_GUI E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
 &kp GRAVE   &hml LEFT_CONTROL Z  &hml LEFT_ALT X  &hml LEFT_GUI C  &kp D              &kp V   &kp LS(LA(LC(LGUI)))  &kp LEFT_SHIFT  &layer_td  &kp LGUI  &kp RCTRL  &kp RSHFT  &kp K   &kp H               &kp COMMA         &kp DOT           &kp FSLH              &kp PG_UP
-&magic 1 0  &kp HOME             &kp END          &kp LEFT         &kp RIGHT                  &kp BSPC              &kp LEFT_GUI    &kp LALT   &kp RALT  &kp RET    &kp SPACE          &kp UP              &kp DOWN          &kp LBKT          &kp RBKT              &kp PG_DN
+&magic 1 0  &kp HOME             &kp END          &kp LEFT         &kp RIGHT                  &kp BSPC              &kp LEFT_GUI    &kp LCTRL  &kp RALT  &kp RET    &kp SPACE          &kp UP              &kp DOWN          &kp LBKT          &kp RBKT              &kp PG_DN
             >;
         };
 
