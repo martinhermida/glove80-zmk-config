@@ -123,7 +123,7 @@
 &kp F1      &kp F2               &kp F3           &kp F4           &kp F5                                                                                                 &kp F6              &kp F7            &kp F8            &kp F9                &kp F10
 &kp EQUAL   &kp N1               &kp N2           &kp N3           &kp N4             &kp N5                                                                      &kp N6  &kp N7              &kp N8            &kp N9            &kp N0                &kp MINUS
 &kp TAB     &kp Q                &kp W            &kp F            &kp P              &kp B                                                                       &kp J   &kp L               &kp U             &kp Y             &kp SEMI              &kp BSLH
-&kp ESC     &lt 2 A              &kp R            &kp S            &hml LEFT_SHIFT T  &kp G                                                                       &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_GUI E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
+&kp ESC     &lt 2 A              &kp R            &lt 3 S          &hml LEFT_SHIFT T  &kp G                                                                       &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_GUI E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
 &kp GRAVE   &hml LEFT_CONTROL Z  &hml LEFT_ALT X  &hml LEFT_GUI C  &kp D              &kp V   &kp LSHFT  &kp LCTRL     &layer_td  &kp LGUI  &kp RCTRL  &kp RSHFT  &kp K   &kp H               &kp COMMA         &kp DOT           &kp FSLH              &kp PG_UP
 &magic 1 0  &kp HOME             &kp END          &kp LEFT         &kp RIGHT                  &kp BSPC   &kp LEFT_GUI  &kp LALT   &kp RALT  &kp RET    &kp SPACE          &kp UP              &kp DOWN          &kp LBKT          &kp RBKT              &kp PG_DN
             >;
@@ -148,6 +148,17 @@
 &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                                                  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RG(RIGHT_ARROW)
 &trans  &trans  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans        &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans                      &trans          &trans        &trans          &trans           &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                             &trans            &trans                &trans                 &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans             &trans            &trans                &trans                 &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans             &kp AMPERSAND     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION    &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                     &trans            &kp MINUS             &kp UNDERSCORE         &trans         &trans
             >;
         };
     };
